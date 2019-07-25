@@ -1,7 +1,7 @@
 FROM node:9
 MAINTAINER Tony Motakis <tvelocity@gmail.com>
 
-ENV ETHERPAD_VERSION 1.6.5
+ENV ETHERPAD_VERSION 1.7.5
 ENV NODE_ENV production
 
 RUN printf "deb http://archive.debian.org/debian/ jessie main\ndeb-src http://archive.debian.org/debian/ jessie main\ndeb http://security.debian.org jessie/updates main\ndeb-src http://security.debian.org jessie/updates main" > /etc/apt/sources.list
